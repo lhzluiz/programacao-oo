@@ -7,3 +7,4 @@ public class Exercicio3 {
         p2.exibir();
     }
 }
+ 
