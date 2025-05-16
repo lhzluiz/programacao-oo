@@ -5,7 +5,7 @@ class Personagem {
 
     public Personagem(String nome, int hp, int ataqueBase) {
         this.nome = nome;
-        this.hp = hp;
+        this.hp = hp; //Construtor
         this.ataqueBase = ataqueBase;
     }
 
@@ -15,7 +15,7 @@ class Personagem {
 
     public void defender(int dano) { //método defender
         hp -= dano;
-        if (hp < 0) hp = 0;
+        if (hp < 0) hp = 0; //se o HP for menor do que 0, HP = 0, ou seja ele esta morto
     }
 
     public void usarHabilidadeEspecial() {}
