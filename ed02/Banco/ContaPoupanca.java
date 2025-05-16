@@ -3,7 +3,7 @@ class ContaPoupanca extends Conta {
 
     void aplicarJurosDiarios() { saldo *= 0.0008; } //continha para aplicar os juros diarios
 
-    void imprimirExtrato() {
+    void imprimirExtrato() { //imprime o extrato
         System.out.println("[Poupança] " + cliente + " - R$" + saldo);
     }
 }
