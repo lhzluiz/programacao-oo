@@ -1,4 +1,4 @@
-class ContaSalario extends Conta {
+class ContaSalario extends Conta { //subclasse
     ContaSalario(String cliente, double saldo) { super(cliente, saldo); }
 
     void imprimirExtrato() {
