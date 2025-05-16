@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Conta cc = new ContaCorrente("Alice", 1000);
-        Conta cp = new ContaPoupanca("Bob", 1500);
+        Conta cc = new ContaCorrente("Alice", 1000); 
+        Conta cp = new ContaPoupanca("Bob", 1500); //cc,cp e cs nome dado para acessar a conta corrente, etc..
         Conta cs = new ContaSalario("Carlos", 1200);
 
         cc.depositar(200);
