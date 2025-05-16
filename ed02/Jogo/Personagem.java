@@ -1,6 +1,6 @@
 class Personagem {
     protected String nome;
-    protected int hp;
+    protected int hp; //atributo e metodo são privados
     protected int ataqueBase;
 
     public Personagem(String nome, int hp, int ataqueBase) {
@@ -9,11 +9,11 @@ class Personagem {
         this.ataqueBase = ataqueBase;
     }
 
-    public void atacar(Personagem inimigo) {
+    public void atacar(Personagem inimigo) { //metódo atacar
         inimigo.defender(ataqueBase);
     }
 
-    public void defender(int dano) {
+    public void defender(int dano) { //método defender
         hp -= dano;
         if (hp < 0) hp = 0;
     }
