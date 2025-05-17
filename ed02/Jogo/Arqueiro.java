@@ -1,4 +1,4 @@
-class Arqueiro extends Personagem { // Ataque médio, habilidade de múltiplos ataques
+class Arqueiro extends Personagem { // Ataque medio, habilidade de multipls ataques
     public Arqueiro(String nome) {
         super(nome, 120, 20);
     }
