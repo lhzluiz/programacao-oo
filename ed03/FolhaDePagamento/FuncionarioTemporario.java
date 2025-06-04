@@ -1,6 +1,6 @@
 package FolhaDePagamento;  
 
-public class FuncionarioTemporario extends Funcionario {  // subclasse Funcionario
+public class FuncionarioTemporario extends Funcionario {  // subclasse Funcionario, extends = herança da classe pai
 
     private static final double DESCONTO_TEMPORARIO = 100.0;  // desconto fixo de R$100,00
 
