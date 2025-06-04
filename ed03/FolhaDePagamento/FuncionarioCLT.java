@@ -1,6 +1,6 @@
 package FolhaDePagamento; 
 
-public class FuncionarioCLT extends Funcionario {  // subclasse de Funcionario
+public class FuncionarioCLT extends Funcionario {  // subclasse de Funcionario, extends = herança da classe pai
 
     private static final double ADICIONAL_CLT = 300.0;  // constante: adicional fixo de R$300,00
 
