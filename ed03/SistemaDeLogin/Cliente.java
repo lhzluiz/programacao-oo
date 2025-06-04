@@ -3,7 +3,7 @@ package SistemaDeLogin;
 public class Cliente extends Usuario implements Autenticavel {  // herda de Usuario e implementa Autenticavel
 
     public Cliente(String login, String senha) {  // construtor chamando a superclasse pai
-        super(login, senha);
+        super(login, senha); //chama o construtor da classe pai
     }
 
     @Override
