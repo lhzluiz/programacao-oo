@@ -3,7 +3,7 @@ package SistemaDeLogin;
 public class Administrador extends Usuario implements Autenticavel, Gerenciavel, Logavel {  // herda de Usuario e implementa 3 interfaces
 
     public Administrador(String login, String senha) {  // construtor chamando a superclasse pai
-        super(login, senha); //chama o construtor da classe pai
+        super(login, senha); //chama o construtor default da classe pai
     }
 
     @Override
